@@ -1,0 +1,97 @@
+
+* {
+  margin: 0;
+}
+body{
+  /*background: black;*/
+}
+nav {
+  background: #A2DEE4;
+  height: 40px;
+  position: relative;
+  margin: 0;
+  display: flex;
+}
+
+.nav__icon{
+  border: black solid 1px;
+  background: url(images/dog-icon.svg) no-repeat;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height:20px;
+  width: 20px;
+}
+
+.nav__links{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  margin: 0 30px;
+}
+
+.nav__links li{
+  display: inline-block;
+  text-decoration: none;
+  /*color: #FFF;*/
+}
+
+.nav__links li:hover{
+  color: red;
+
+}
+/*--- section -----------------------------------*/
+
+.section__img {
+  background: url(images/dog1-sq.jpg) no-repeat 50% 50%;
+  height: 240px;
+  width: 240px;
+  border: solid 2px #5D8F9F;
+  border-radius: 120px;
+}
+
+.section__background {
+  background: url(images/park.jpg) no-repeat;
+  background-size: 100% 500px;
+}
+/*----- main --------------------------------------*/
+
+.main__img{
+  height: 220px;
+  width: 220px;
+  border: solid 2px #6698AD;
+  border-radius: 120px;
+}
+
+.how__dog-img {
+  background: url(images/dog2-sq.jpg) no-repeat 50% 50%;
+  background-size: 225px;
+}
+
+.what__dog-img {
+  background: url(images/dog3-sq.jpg) no-repeat 50% 50%;
+  background-size: 250px;
+}
+
+.facts__dog-img {
+  background: url(images/dog4-sq.jpg) no-repeat 50% 50%;
+  background-size: 225px;
+}
+
+button{
+  color: #83AEBF;
+  border: solid 2px #83AEBF;
+}
+/*------- footer ------------------------------------*/
+
+footer{
+  background: #528CA4;
+}
+
+.footer__icons li {
+  display: inline-block;
+}
+
+.github__link {
+  color: #FFF;
+}
